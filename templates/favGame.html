@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Favorite Games</title>
+  </head>
+  <body>
+    <h1>My Favorite Game</h1>
+    <ul>
+      {% for game in game_list %}
+      <li>{{game}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
